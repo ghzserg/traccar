@@ -43,7 +43,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: traccar/traccar-web
-          ref: ${{ github.ref_name }}
+          ref: master
       - uses: actions/setup-node@v4
         with:
           node-version: 22
